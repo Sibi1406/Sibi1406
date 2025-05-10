@@ -2,7 +2,7 @@ import streamlit as st
 import cohere
 
 # Initialize Cohere client with your API key
-co = cohere.Client('wZ4UKDzrLDLjyocfH0o6pAqGZkAd6VWJansdFqMc')  # Replace with your actual key
+co = cohere.Client('API KEY')  # Replace with your actual key
 
 # Function to generate recipes
 def get_recipe(ingredients):
