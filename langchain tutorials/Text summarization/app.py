@@ -2,7 +2,7 @@ import streamlit as st
 import cohere
 
 # ---- Hardcode your API Key directly here ----
-COHERE_API_KEY = "3fRevwwH4S8LRX4MvAUtzz5pDIOeIPDsoLxH1cSr"
+COHERE_API_KEY = "API KEY"
 
 # Initialize Cohere client
 co = cohere.Client(COHERE_API_KEY)
