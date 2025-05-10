@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 # -------------  CONFIG  -------------
-COHERE_API_KEY = 'wZ4UKDzrLDLjyocfH0o6pAqGZkAd6VWJansdFqMc'  # Replace with your Cohere key
+COHERE_API_KEY = 'API KEY'  # Replace with your Cohere key
 co = cohere.Client(COHERE_API_KEY)
 
 # -------------  FUNCTIONS  -------------
