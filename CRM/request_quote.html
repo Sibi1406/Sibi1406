@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Request a Quote</title>
+</head>
+<body style="font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px;">
+
+  <h2 style="text-align: center;">Request a Quote</h2>
+
+  <form action="request_quote.php" method="POST" style="max-width: 500px; margin: auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px #ccc;">
+
+    <label>Full Name:</label><br>
+    <input type="text" name="name" required style="width: 100%; padding: 10px; margin-bottom: 15px;"><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 15px;"><br>
+
+    <label>Phone Number:</label><br>
+    <input type="text" name="phone" required style="width: 100%; padding: 10px; margin-bottom: 15px;"><br>
+
+    <label>Product Interested In:</label><br>
+    <select name="product" required style="width: 100%; padding: 10px; margin-bottom: 15px;">
+      <option value="CRM Software">CRM Software - 2499/month</option>
+      <option value="Support Service">Support Service - 1999/year</option>
+    </select><br>
+
+    <label>Additional Notes:</label><br>
+    <textarea name="message" rows="4" style="width: 100%; padding: 10px; margin-bottom: 15px;"></textarea><br>
+
+    <input type="submit" value="Submit Quote Request" style="background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+
+  </form>
+
+</body>
+</html>
